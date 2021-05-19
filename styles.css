@@ -1,17 +1,22 @@
 *{
+  /* margin-top: 50px; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 /* background-color:brown; */
+
 }
 .navbar{
   display: flex;
   align-items: center;
   padding: 20px;
+  /* margin-top: 50px; */
+  
 }
 nav,ul{
   flex: 1;
   text-align: right;
+  
 }
 nav,ul{
 
@@ -39,5 +44,22 @@ color: #555;
 }
 
 .container{
-  margin-width:1300px;
+  max-width:1300px;
+  margin:auto;
+
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+h1,p{
+  margin-right: 25px;
+  margin: 25px;
+  padding: 25px;
+   /* text-align: center ; */
+}
+.row{
+/* display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around; */
 }
